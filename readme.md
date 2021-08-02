@@ -20,7 +20,7 @@ This is an example of how to list things you need to use the software and how to
    pip install python-dotenv
    ```
 
-2. Enter your API in `.env`
+2. Enter your TOKEN in `.env`
    ```.env
-   BOT_TOKEN = 'ENTER YOUR TOKEN';
+   BOT_TOKEN = 'ENTER YOUR TOKEN'
    ```
