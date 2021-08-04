@@ -7,9 +7,8 @@ class Example(commands.Cog):
 		self.client = client
 	
 	# Events
-	@commands.Cog.listener()
-	async def on_ready(self):
-		print("Bot is ready.")
+	# @commands.Cog.listener()
+	
 	
 	# Commands	
 	@commands.command()

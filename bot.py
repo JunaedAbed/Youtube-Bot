@@ -9,6 +9,11 @@ intents = discord.Intents.all()
 intents.members = True
 
 client = commands.Bot(command_prefix=".",intents = intents)
+
+@client.event
+async def on_ready():
+	await client.change_presence(status=discord.Status.idle, activity=discord.Game('Waiting...'))
+	print("Bot is ready.")
 	
 @client.command()
 async def load(ctx, extension):
